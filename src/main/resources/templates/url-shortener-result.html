@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortened</title>
+</head>
+<body>
+    <h1>Your URL has been shortened!</h1>
+    <p>Original URL: <strong th:text="${originalUrl}"></strong></p>
+    <p>Shortened URL: 
+        <a th:href="${shortenedUrl}" th:text="${shortenedUrl}" target="_blank"></a>
+    </p>
+</body>
+</html>
